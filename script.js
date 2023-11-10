@@ -3,10 +3,10 @@ $(document).ready(function () {
   var isRunning = false;
 
   function startCountdown(duration, display) {
-    var timer = duration,
-      hours,
-      minutes,
-      seconds;
+    var timer = duration;
+    var hours;
+    var minutes;
+    var seconds;
 
     var countdownInterval = setInterval(function () {
       hours = parseInt(timer / 3600, 10);
