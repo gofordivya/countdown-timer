@@ -1,0 +1,37 @@
+body {
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.timer-container {
+  margin: 50px;
+}
+
+.countdown-timer {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+button {
+  font-size: 16px;
+  margin: 5px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+#customTime {
+  font-size: 16px;
+  width: 60px;
+  margin: 5px;
+  padding: 8px;
+}
+
+#plus,
+#minus {
+  font-size: 16px;
+  margin: 5px;
+  padding: 8px;
+  cursor: pointer;
+}
